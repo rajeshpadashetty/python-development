@@ -1,5 +1,5 @@
 from cal import *
-x=3
-y=5
-p=add(x,y)
+a=3
+b=5
+p=add(a,b)
 print(p)
