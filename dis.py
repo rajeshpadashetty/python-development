@@ -5,4 +5,4 @@ def display():
     else:
       print("student list:")
       for student in Students:
-         print(student)
+         print(f"Name: {student['name']}, Age: {student['age']}, Course: {student['course']}")
