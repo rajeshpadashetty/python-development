@@ -1,3 +1,8 @@
-from timeit import time
-print(Timer("t=a;a=b;b=t","a=1; b=2").timeit())
-
+def read_data(filename):
+   try:
+      with open(filename,'r')as file:
+            data=file.read()
+            print("data read successfully")
+            return data
+   except FileNotFoundError:
+       print("file not found!")
