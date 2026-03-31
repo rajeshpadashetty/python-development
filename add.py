@@ -1,9 +1,11 @@
-Students=[]
-def add(name, age, course):
-    student = {
-        "name": name,
-        "age": age,
-        "course": course
-    }
-    Students.append(student)
-    print("added successfully")
+employee=[]
+def employee(name,id,salary,role,company_name):
+  emp={
+    "name":name,
+    "id":id,
+    "salary":salary,
+    "role":role,
+    "company_name":company_name
+  }
+  employee.append(emp)
+  print("employee details added succesfully")
